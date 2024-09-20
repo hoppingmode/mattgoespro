@@ -1,0 +1,60 @@
+{
+  "[typescript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.formatOnPaste": true,
+    "editor.formatOnSave": true
+  },
+  "editor.codeActionsOnSave": {
+    "source.addMissingImports.ts": "always",
+    "source.fixAll.eslint": "always",
+    "source.fixAll.sortJSON": "always"
+  },
+  "editor.defaultFoldingRangeProvider": "esbenp.prettier-vscode",
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "eslint.codeActionsOnSave.mode": "problems",
+  "eslint.enable": true,
+  "eslint.format.enable": false,
+  "eslint.probe": [
+    "javascript",
+    "typescript"
+  ],
+  "eslint.run": "onType",
+  "eslint.validate": [
+    "javascript",
+    "typescript"
+  ],
+  "explorer.confirmDragAndDrop": false,
+  "files.exclude": {
+    "**/node_modules/**": true,
+    ".git": true
+  },
+  "files.watcherExclude": {
+    "**/dist/**": true,
+    "**/node_modules/**": true,
+    ".git": true
+  },
+  "javascript.format.enable": false,
+  "javascript.suggestionActions.enabled": false,
+  "javascript.updateImportsOnFileMove.enabled": "always",
+  "javascript.validate.enable": false,
+  "prettier.configPath": ".prettierrc.cjs",
+  "prettier.endOfLine": "lf",
+  "search.exclude": {
+    "**/dist/**": true,
+    ".git": true,
+    ".venv": false,
+    "node_modules": true,
+    "npm-debug.log.*": true,
+    "package-lock.json": true
+  },
+  "template-string-converter.autoRemoveTemplateString": true,
+  "template-string-converter.convertOutermostQuotes": true,
+  "template-string-converter.validLanguages": [
+    "javascript",
+    "typescript"
+  ],
+  "typescript.format.enable": false,
+  "typescript.tsdk": "${workspaceFolder}\\node_modules\\typescript\\lib",
+  "typescript.updateImportsOnFileMove.enabled": "always",
+  "workbench.iconTheme": "material-icon-theme"
+}

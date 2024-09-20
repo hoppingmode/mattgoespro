@@ -1,22 +1,28 @@
 {
   "recommendations": [
-    "esbenp.prettier-vscode",
-    "dbaeumer.vscode-eslint",
+    "mgmcdermott.vscode-language-babel",
+    "shakram02.bash-beautify",
+    "mads-hartmann.bash-ide-vscode",
+    "jeff-hykin.better-shellscript-syntax",
+    "naumovs.color-highlight",
     "ms-azuretools.vscode-docker",
-    "christian-kohler.npm-intellisense",
     "usernamehw.errorlens",
+    "dbaeumer.vscode-eslint",
     "felipecaputo.git-project-manager",
+    "github.vscode-github-actions",
     "github.copilot",
     "github.copilot-chat",
     "yzhang.markdown-all-in-one",
     "shd101wyy.markdown-preview-enhanced",
     "davidanson.vscode-markdownlint",
+    "pkief.material-icon-theme",
     "herrmannplatz.npm-dependency-links",
+    "christian-kohler.npm-intellisense",
     "mskelton.npm-outdated",
     "fabiospampinato.vscode-open-in-npm",
+    "esbenp.prettier-vscode",
+    "timonwong.shellcheck",
     "richie5um2.vscode-sort-json",
-    "pkief.material-icon-theme",
-    "wix.vscode-import-cost",
-    "yoavbls.pretty-ts-errors"
+    "wix.vscode-import-cost"
   ]
 }
